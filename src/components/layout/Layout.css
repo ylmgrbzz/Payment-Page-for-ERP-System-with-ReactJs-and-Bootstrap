@@ -1,0 +1,109 @@
+/* Sidebar Start */
+
+.sidebar {
+  background-color: #1d2939;
+  width: fit;
+}
+.sidebar.active {
+  width: 220px;
+}
+
+.sidebar .link-bg {
+  border-radius: 2px;
+  font-weight: bold;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  transition: 300ms all;
+  -webkit-transition: 300ms all;
+  -moz-transition: 300ms all;
+  -ms-transition: 300ms all;
+  -o-transition: 300ms all;
+  text-decoration: none;
+  color: white;
+}
+.sidebar .link-bg:hover {
+  background-color: #00b297;
+  color: white;
+}
+.link-bg:hover .icon {
+  color: white;
+  transition: 300ms all;
+  -webkit-transition: 300ms all;
+  -moz-transition: 300ms all;
+  -ms-transition: 300ms all;
+  -o-transition: 300ms all;
+}
+.sidebar .link-bg.active {
+  background-color: #00b297;
+  color: white;
+}
+.sidebar .link-bg.active .icon {
+  color: white;
+}
+.sidebar .icon {
+  font-size: 18px;
+}
+.odeme {
+  color: #adb5bd;
+  font-size: 15px;
+}
+.arrow-icon2 {
+  position: absolute;
+  left: 160px;
+  z-index: 9999;
+}
+.text-color {
+  color: #adb5bd;
+}
+/* Sidebar End */
+
+/* Header start */
+.header {
+  height: 9vh;
+}
+.logo-green {
+  color: #00b297;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.hamburger-menu {
+  font-size: 1.4rem;
+  font-weight: bold;
+  height: 7vh;
+  cursor: pointer;
+}
+.header-text {
+  color: gray;
+  font-weight: 500;
+}
+.iconn {
+  /* color: #00b297; */
+  margin-right: 8px;
+}
+.icon {
+  color: #00b297;
+  margin-right: 8px;
+}
+.logo {
+  cursor: pointer;
+  margin-left: 15px;
+}
+.image {
+  cursor: pointer;
+  margin-right: 1px;
+}
+.logo-text {
+  font-size: 0.8em; /* adjust as needed */
+  text-align: center;
+}
+.hamburger-menu {
+  position: absolute;
+  left: 200px;
+  z-index: 9999;
+}
+
+/* Header end */

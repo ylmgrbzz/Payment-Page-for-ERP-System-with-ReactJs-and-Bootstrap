@@ -1,0 +1,206 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.home-content {
+  background-color: #dee2e6;
+  width: 100%;
+  overflow-x: hidden;
+}
+.content-wrapper {
+  padding-bottom: 150px !important;
+}
+.content-title {
+  color: rgb(163, 163, 163);
+}
+.smaller-font {
+  font-size: 1.5rem;
+}
+
+.profile-card {
+  background-color: #343a40;
+  color: white;
+  width: calc(100% / 4.5);
+  height: 120px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.card-icon {
+  font-size: 4rem;
+}
+.profile-card .title {
+  font-size: 0.8rem;
+}
+.profile-card .subTitle {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.balance-t-card {
+  background-color: #17a2b8;
+  color: white;
+  width: calc(100% / 4.1);
+  height: 120px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.balance-t-card .title {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.balance-t-card .subTitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.balance-card {
+  background-color: #00b297;
+  color: white;
+  width: calc(100% / 4.2);
+  height: 120px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.balance-card .title {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.balance-card .subTitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.balance-t-red-card {
+  background-color: #dc3545;
+  color: white;
+  width: calc(100% / 4.1);
+  height: 120px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.balance-t-red-card .title {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.balance-t-red-card .subTitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.chip {
+  width: 80px;
+  height: 60px;
+}
+.kart {
+  color: #868ba1;
+}
+.card-logo {
+  width: 60px;
+  height: 50px;
+}
+.credit-card {
+  background-color: gray;
+  max-width: 300px;
+  width: 300px;
+  color: lightgray;
+}
+.credit-card.ziraat {
+  background-color: #d5101c;
+}
+.credit-card.visa {
+  background-color: rgb(255, 251, 0);
+}
+
+.credit-card.maximum {
+  background-color: #f20584;
+}
+.credit-card.yapiKredi {
+  background-color: purple;
+}
+.card-number {
+  font-size: 1.8rem;
+}
+.credit-form {
+  max-width: 300px;
+}
+.card-logo-box {
+  width: 100%;
+  padding: 10px;
+}
+.choose-table {
+  width: 100%;
+}
+.choose-table-w {
+  width: 1000px;
+}
+
+.form-input {
+  height: 40px;
+  outline: none;
+  border: 1px solid rgb(173, 173, 173);
+}
+.date-input {
+  width: calc(100% / 3);
+}
+.cvc {
+  width: calc(100% / 3);
+  height: 25px;
+}
+
+.submit-btn {
+  background-color: #00b297;
+  color: white;
+}
+.submit-btn:hover {
+  background-color: #4dd8c3;
+  color: white;
+}
+.submit-box {
+  bottom: 5px;
+  left: 50%;
+  width: 98%;
+  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+}
+
+.banks-logo {
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+}
+
+/* .box {
+  width: calc(100% / 3);
+} */
+
+.box {
+  display: flex;
+  flex-wrap: wrap; /* allows the elements inside the div to wrap to the next line if they don't fit in one line */
+}
+
+.valid {
+  background-color: green;
+}
+.invalid {
+  background-color: red;
+}
