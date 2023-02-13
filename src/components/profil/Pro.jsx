@@ -29,7 +29,10 @@ const Pro = () => {
         <span className="content-title p-2">Anasayfa </span>/ Profil Bilgileri
       </div>
       <div className="bg-white rounded-2  px-1 my-2 w-100 h-100 content-wrapper  d-flex justify-content-center align-items-center">
-        <div className="text-center d-flex flex-wrap my-5 " style={{ color: "45px" }}>
+        <div
+          className="text-center d-flex flex-wrap my-5 "
+          style={{ color: "45px" }}
+        >
           <Form onSubmit={handleSubmit}>
             <div className="row" style={{ textAlign: "left" }}>
               <h3 className="" style={{ textAlign: "left" }}>
@@ -161,7 +164,10 @@ const Pro = () => {
                   variant="primary"
                   type="submit"
                 >
-                  <AiOutlineSave className="iconn" style={{marginBottom: "3px", heigsht: "30px"}}  />
+                  <AiOutlineSave
+                    className="iconn"
+                    style={{ marginBottom: "3px", heigsht: "30px" }}
+                  />
                   Değişiklikleri Kaydet
                 </Button>
               </div>

@@ -7,14 +7,14 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 import "./Layout.css";
 import { Link } from "react-router-dom";
 const Header = ({ show, setShow }) => {
-  const [log, setLog] = useState(true);
+  const [log, setLog] = useState(false);
   return (
     <div className="header d-flex justify-content-between align-items-center py-0 px-2">
       <div className="d-flex align-items-center  gap-5">
         <Link to="/" style={{ textDecoration: "none", color: "#212529" }}>
           <div className="logo  ">
             <span className="logo-green">[</span>
-            <span className="logo-text text-center">ProEntegre</span>
+            <span className="logo-text text-center">ErpEntegre</span>
             <span className="logo-green">]</span>
           </div>
         </Link>
@@ -26,7 +26,7 @@ const Header = ({ show, setShow }) => {
         <GiHamburgerMenu />
       </div>
       <div className="header-text position-relative">
-        Yerinde Teknoloji Bilg.Yaz. Ve Dan.Hizm.Dış.Tic.Lt{" "}
+        Yalım Gürbüz Bilg.Yaz. Ve Dan.Hizm.Dış.Tic.Lt{" "}
         <AiOutlineArrowDown
           className="icon arrow-icon"
           onClick={() => setLog(log === true ? false : true)}
@@ -42,14 +42,16 @@ const Header = ({ show, setShow }) => {
             log === true ? "d-flex" : "d-none"
           } bg-white position-absolute end-0 top-100 p-3 z-3  flex-column`}
         >
-        <Link to="/profile" style={{ textDecoration: "none" , color: "#868ba1" }} >
-        
-        <div className="d-flex gap-2 align-items-center">
-        <AiOutlineUser className="icon" />
-        Profil
-        </div>
-        </Link>
-        <div className="d-flex gap-2 align-items-center">
+          <Link
+            to="/profile"
+            style={{ textDecoration: "none", color: "#868ba1" }}
+          >
+            <div className="d-flex gap-2 align-items-center">
+              <AiOutlineUser className="icon" />
+              Profil
+            </div>
+          </Link>
+          <div className="d-flex gap-2 align-items-center">
             <FiLogOut className="icon" />
             Çıkış Yap
           </div>

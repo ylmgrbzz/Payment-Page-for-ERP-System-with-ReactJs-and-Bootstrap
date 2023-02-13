@@ -6,8 +6,6 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Table } from "react-bootstrap";
 
-import { Form, Button } from "react-bootstrap";
-
 const Content = () => {
   const [cardNo, setCardNo] = useState("");
   const validateCard = (cardNo) => {
@@ -79,7 +77,7 @@ const Content = () => {
       .get("http://hasanadiguzel.com.tr/api/kurgetir")
       .then((response) => {
         setData(response?.data);
-        console.log(response.data.TCMB_AnlikKurBilgileri[0]);
+        console.log("Dolar Kuru:",response.data.TCMB_AnlikKurBilgileri[0]);
       })
       .catch((error) => {
         console.log(error);
@@ -100,7 +98,7 @@ const Content = () => {
             <div className="d-flex flex-column ">
               <div className="title">HOŞGELDINIZ</div>
               <div className="subTitle">
-                Yerinde Teknoloji <br />
+                Yalım Gürbüz Teknoloji <br />
                 Bilg.Yaz.Ve...
               </div>
             </div>
@@ -435,10 +433,10 @@ const Content = () => {
                   >
                     <input id="agreement" type="checkbox" required />
                     <div className="user-select-none">
-                      * Yukarıdaki bilgilerin doğruluğunu onaylıyor ve Bilkur
-                      Bilgisayar Sanayi ve Ticaret Ltd. Şti. ile aramda yapmış
-                      olduğum ticari sözleşme şartlarına uygun olduğunu kabul
-                      ediyorum.
+                      * Yukarıdaki bilgilerin doğruluğunu onaylıyor ve Yalım
+                      Gürbüz Bilgisayar Sanayi ve Ticaret Ltd. Şti. ile aramda
+                      yapmış olduğum ticari sözleşme şartlarına uygun olduğunu
+                      kabul ediyorum.
                     </div>
                   </label>
                   <button className="submit-btn btn fw-bold z-2 ms-auto ">
